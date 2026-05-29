@@ -16,9 +16,9 @@ Professor: Eng. Carlos Andrés Sierra, M.Sc.
 
 ## About the Project
 
-The **Sustainable Transportation Coordinator** is a systems engineering project designed to address mobility, communication and parking bottlenecks affecting students at the Faculty of Engineering, with a focus on the Calle 40, Calle 34 and ECCI campuses.[file:12]  
+The **Sustainable Transportation Coordinator** is a systems engineering project designed to address mobility, communication and parking bottlenecks affecting students at the Faculty of Engineering, with a focus on the Calle 40, Calle 34 and ECCI campuses.  
 
-Across the three workshops, the project **evolves** from a broad sustainable mobility concept (inter‑campus carpooling and bike sharing) to a more feasible and focused solution called the **Campus Parking and Exit Carpool Coordinator**, which concentrates on campus parking management and exit‑time carpooling while keeping the initial analyses as context.[file:20]
+Across the three workshops, the project **evolves** from a broad sustainable mobility concept (inter‑campus carpooling and bike sharing) to a more feasible and focused solution called the **Campus Parking and Exit Carpool Coordinator**, which concentrates on campus parking management and exit‑time carpooling while keeping the initial analyses as context.
 
 ---
 
@@ -35,7 +35,7 @@ Across the three workshops, the project **evolves** from a broad sustainable mob
 
 **Folder:** [`workshop_1`](./workshop_1)
 
-In the first phase of the project, we conducted a **holistic systems analysis** to identify the main transportation and parking problems at the Faculty of Engineering.[file:12] We analysed external factors, collected primary data through student surveys, performed direct observations at the Calle 40 campus, and evaluated system sensitivity and complexity.[file:12]
+In the first phase of the project, we conducted a **holistic systems analysis** to identify the main transportation and parking problems at the Faculty of Engineering. We analysed external factors, collected primary data through student surveys, performed direct observations at the Calle 40 campus, and evaluated system sensitivity and complexity.
 
 **Deliverables:**
 
@@ -50,18 +50,18 @@ In the first phase of the project, we conducted a **holistic systems analysis** 
 
 **Folder:** [`Workshop_2`](./Workshop_2)
 
-This workshop translates the analytical findings from Workshop 1 into a **comprehensive systems design blueprint**.[file:11]
+This workshop translates the analytical findings from Workshop 1 into a **comprehensive systems design blueprint**.
 
 ### Methodology
 
-The design process involved defining the **system architecture, core modules and data flows** to satisfy the functional and non‑functional requirements.[file:11] We applied systems engineering principles such as modularity, scalability and security, with explicit attention to risk factors like unpredictable traffic conditions and community trust.[file:11]
+The design process involved defining the **system architecture, core modules and data flows** to satisfy the functional and non‑functional requirements. We applied systems engineering principles such as modularity, scalability and security, with explicit attention to risk factors like unpredictable traffic conditions and community trust.
 
 ### Key Design Decisions
 
-- **Layered Architecture:** the system is divided into Client Interfaces (student app and security dashboard), Application Services (integration and matching) and Data Layers.[file:11]  
-- **Security & Trust:** mandatory institutional email verification and connection to the university’s vehicle database to ensure a closed, trusted community.[file:11]  
-- **Complexity Handling:** a **Manual Status Update** module allows drivers and staff to adjust trip status in response to unpredictable traffic, without depending on complex GPS tracking.[file:11]  
-- **System Resilience:** integration of **transaction logs** and connection‑pooling strategies to avoid the loss of active trips during network outages or server restarts.[file:11]
+- **Layered Architecture:** the system is divided into Client Interfaces (student app and security dashboard), Application Services (integration and matching) and Data Layers.  
+- **Security & Trust:** mandatory institutional email verification and connection to the university’s vehicle database to ensure a closed, trusted community.
+- **Complexity Handling:** a **Manual Status Update** module allows drivers and staff to adjust trip status in response to unpredictable traffic, without depending on complex GPS tracking.  
+- **System Resilience:** integration of **transaction logs** and connection‑pooling strategies to avoid the loss of active trips during network outages or server restarts.
 
 ### Deliverables
 
@@ -78,32 +78,32 @@ The design process involved defining the **system architecture, core modules and
 
 **Folder:** [`Workshop_3`](./Workshop_3)
 
-In Workshop 3, the project is **refined and re‑scoped** into the **Campus Parking and Exit Carpool Coordinator**, an information system that manages parking capacity at the engineering campuses and coordinates shared trips from campus to key city zones during peak departure windows.[file:20]  
+In Workshop 3, the project is **refined and re‑scoped** into the **Campus Parking and Exit Carpool Coordinator**, an information system that manages parking capacity at the engineering campuses and coordinates shared trips from campus to key city zones during peak departure windows. 
 
-The workshop focuses on **conceptual design only**: no production software is implemented. Instead, the team strengthens the architecture, defines risk and quality frameworks, and prepares a project management plan for a future implementation.[file:20]
+The workshop focuses on **conceptual design only**: no production software is implemented. Instead, the team strengthens the architecture, defines risk and quality frameworks, and prepares a project management plan for a future implementation.
 
 ### Scope Evolution
 
 - Original concept: *Sustainable Transportation Coordinator* (inter‑campus carpool + bike‑sharing).  
-- Final scope in Workshop 3: **Campus Parking and Exit Carpool Coordinator**, centred on parking inventory/reservation, policy‑based prioritisation of shared vehicles, and exit‑time carpool matching.[file:20]
+- Final scope in Workshop 3: **Campus Parking and Exit Carpool Coordinator**, centred on parking inventory/reservation, policy‑based prioritisation of shared vehicles, and exit‑time carpool matching.
 
 ### Main Contributions
 
 - **Architecture Refinement:**  
   - Layered conceptual architecture with client, application, integration and data/monitoring layers.  
-  - Specific services for authentication, parking inventory, parking allocation & policy, exit‑time carpool matching and notifications.[file:20]
+  - Specific services for authentication, parking inventory, parking allocation & policy, exit‑time carpool matching and notifications.
 
 - **Conceptual Web Interfaces:**  
   - Student web/mobile interface with dashboard, parking module and exit‑time carpool module.  
-  - Security and operations dashboard to monitor occupancy, manage access and review policy violations.[file:20]
+  - Security and operations dashboard to monitor occupancy, manage access and review policy violations.
 
 - **Risk Management:**  
   - Identification of technical and security risks (data desynchronization, chat downtime, unauthorized users, data breaches, etc.).  
-  - Mitigation and contingency strategies aligned with ISO‑style risk management practices.[file:20]
+  - Mitigation and contingency strategies aligned with ISO‑style risk management practices.
 
 - **Quality and Project Management Framework:**  
   - Quality criteria aligned with ISO 31000 and ISO/IEC 25010 (reliability, performance, security).  
-  - High‑level project plan and responsibilities to guide a future implementation.[file:20]
+  - High‑level project plan and responsibilities to guide a future implementation.
 
 ### Deliverables
 
