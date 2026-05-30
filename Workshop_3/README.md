@@ -1,56 +1,64 @@
-# Workshop 3 – Campus Parking and Exit Carpool Coordinator
+# Campus Parking and Exit Carpool Coordinator
 
-## 1. Workshop Overview
+This repository contains the academic project **Campus Parking and Exit Carpool Coordinator**, developed for the **Systems Analysis and Design** course at **Universidad Distrital Francisco José de Caldas**.
 
-This workshop develops a **robust conceptual design and project management framework** for the *Campus Parking and Exit Carpool Coordinator*, an information system that manages parking capacity at the engineering campuses and coordinates shared trips from campus to key city zones during peak departure windows.  
+The project proposes a socio-technical system focused on improving parking space management inside the engineering campus and supporting shared vehicle departures from the university to students' destination zones across the city. Rather than treating the solution only as a software product, the project is approached as a broader operational system involving users, institutional rules, security procedures, physical parking constraints, and coordination processes.
 
-The work builds on Workshops 1 and 2, which revealed **severe parking saturation**, daily motorcycle overflow to public streets, bottlenecks at the Calle 40 basement entrance, and strong dependence on informal coordination through messaging apps.  
+## Project Purpose
 
-In Workshop 3 the original *Sustainable Transportation Coordinator* concept (inter‑campus carpooling + bike sharing) is **refined**: bike‑sharing is considered infeasible in the short term, and the scope is narrowed to campus parking management and exit‑time carpooling.
+The main objective of this project is to address recurring parking saturation and informal mobility coordination problems identified at the Calle 40 campus. Based on survey data, field observations, and process analysis, the project evolved from an initial sustainable transportation idea into a more viable and focused system centered on:
 
----
+- Parking reservation and allocation
+- Parking state monitoring
+- Exit-time carpool coordination
+- Operational supervision and exception handling
 
-## 2. Main Contents
+## Repository Structure
 
-### 2.1 System Evolution
+```bash
+.
+├── README.md
+├── WORKSHOP-3.pdf
+└── diagrams/
+    ├── As-Is_vs_To-be.drawio
+    ├── IPO.drawio
+    ├── Diagrama de contexto_
+    
+```
 
-- Summary of Workshop 1: empirical analysis of transport and parking conditions (field observation, parking measurements, survey with 51 users).  
-- Summary of Workshop 2: initial layered architecture with a student app, security dashboard, integration with vehicle and user registries, and a data/monitoring layer.  
-- Scope refinement: renaming of the system to **Campus Parking and Exit Carpool Coordinator** and focus on parking inventory, reservation policies, and exit‑time carpool flows.
+## Contents
 
-### 2.2 Architecture Refinement
+### `WORKSHOP-3.pdf`
+Main workshop document containing the complete conceptual development of the project, including:
 
-The architecture is organised conceptually into four layers:
+- Executive summary
+- System evolution
+- Stakeholder analysis
+- Problem modeling
+- Architecture refinement
+- Risk management
+- Implementation strategy
+- Design validation
+- Conclusions
 
-- **Client Layer:** student web/mobile interface and security/operations dashboard.  
-- **Application Layer:** Authentication Service, Parking Inventory Service, Parking Allocation & Policy Engine, Exit Carpool Matching Service, Notification & Messaging Service. 
-- **Integration Layer:** logical adapters to institutional user and vehicle registries.  
-- **Data & Monitoring Layer:** conceptual repositories for users, vehicles, parking states, carpool offers, audit logs and operational indicators.
+### `diagrams/`
+This folder contains the visual models and diagrams used to support the analysis and design of the system, such as:
 
-The design is **technology‑agnostic**: services, responsibilities and interfaces are defined, but no concrete stack or implementation is specified.
+- Context diagrams
+- As-Is / To-Be process flows
+- Input-Process-Output models
+- Architectural or conceptual support diagrams
 
-### 2.3 Risk Management
+## Project Evolution
 
-A structured risk analysis is performed for technical and security threats at the Calle 40 campus, including:
+The project originally explored a broader sustainable transportation approach that included carpooling and bike-sharing ideas. However, after evaluating feasibility and institutional context, the scope was refined toward a more realistic and applicable solution. The final focus is on parking management and exit-time carpool coordination, which better responds to the current needs of the university community.
 
-- Data desynchronization between the app and the real parking state.  
-- Chat service downtime during peak hours.  
-- Unauthorized users accessing the platform.  
-- Data breaches exposing sensitive user information. 
+## Academic Context
 
-Each risk is described with **category, impact/probability, mitigation strategy and contingency plan**, following ISO‑style risk management guidance.
+- **Course:** Systems Analysis and Design
+- **Program:** Computer Engineering
+- **Institution:** Universidad Distrital Francisco José de Caldas
 
-### 2.4 Quality and Project Management
+## Notes
 
-Workshop 3 also defines:
-
-- **Quality framework:** alignment with ISO 31000 and ISO/IEC 25010 for reliability, performance and security.  
-- **Project management structure:** phased work plan, responsibilities and deliverables to guide a future implementation, without writing production code in this workshop.[file:20]
-
----
-
-## 3. Deliverables in This Folder
-
-- `WORKSHOP 3.pdf` – full Workshop 3 document (robust design and project management).  
-
-Use the main repository README to navigate between Workshop 1, Workshop 2 and this Workshop 3.
+This repository is intended for academic documentation and project organization. The current version presents the conceptual design and planning framework of the system, not a final software implementation.
