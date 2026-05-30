@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="2B-FdUAtta3ycXQW7z1d">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-kfdGyfj_2DdLl93Uw49-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SISTEMA&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Campus Parking and Carpool coord&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="200" x="490" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-kfdGyfj_2DdLl93Uw49-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="STUDENT" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-kfdGyfj_2DdLl93Uw49-12" edge="1" parent="1" source="-kfdGyfj_2DdLl93Uw49-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-kfdGyfj_2DdLl93Uw49-2" value="receives alerts, approves access, sends logs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-kfdGyfj_2DdLl93Uw49-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SECURITY GUARD" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="-kfdGyfj_2DdLl93Uw49-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ADMINISTRATION" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KgvX0VIjPUmJG_HkjTlU-1" edge="1" parent="1" source="-kfdGyfj_2DdLl93Uw49-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-kfdGyfj_2DdLl93Uw49-2" value="validate credentials">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-kfdGyfj_2DdLl93Uw49-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AUTHENTICATION SYSTEM" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-kfdGyfj_2DdLl93Uw49-9" edge="1" parent="1" source="-kfdGyfj_2DdLl93Uw49-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" target="-kfdGyfj_2DdLl93Uw49-2" value="reservation request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-kfdGyfj_2DdLl93Uw49-13" edge="1" parent="1" source="-kfdGyfj_2DdLl93Uw49-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.865;entryDx=0;entryDy=0;entryPerimeter=0;" target="-kfdGyfj_2DdLl93Uw49-2" value="Configure policies, receive reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
