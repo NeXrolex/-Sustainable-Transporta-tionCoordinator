@@ -1,0 +1,182 @@
+WORKSHOP 4 - RUN INSTRUCTIONS
+Campus Parking and Exit Carpool Coordination
+
+1. PROJECT OVERVIEW
+
+This repository contains the simulation stage of the project "Campus Parking and Exit Carpool Coordination" developed for the Systems Analysis & Design course.
+
+The workshop includes two complementary simulations:
+
+- Process-Oriented Simulation:
+  Models parking demand, overflow generation, carpool request handling, matching, cancellations, and synchronization issues over a short operational cycle.
+
+- Behavior-Oriented Simulation:
+  Models long-term adoption, trust, WhatsApp dependence, parking saturation, and behavioral feedback over a longer time horizon.
+
+The purpose of these simulations is to validate the system design under baseline, optimization, and failure scenarios.
+
+2. FILES INCLUDED
+
+- Workshop_4-2.pdf
+  Final report for Workshop 4.
+
+- Process-Oriented-Simulation.py
+  Script for the process-oriented simulation.
+
+- Behavior-Oriented-Simulation.py
+  Script for the behavior-oriented simulation.
+
+- RUN_INSTRUCTIONS.txt
+  This file.
+
+- figures/
+  Optional folder for exported graphs or screenshots.
+
+3. REQUIREMENTS
+
+To run the simulations, you need:
+
+- Python 3.x
+- simpy
+- random
+- matplotlib
+- tkinter
+
+If the required libraries are not installed, install them before running the scripts.
+
+4. HOW TO RUN THE SIMULATIONS
+
+4.1 Process-Oriented Simulation
+
+1. Open the file `Process-Oriented-Simulation.py`.
+2. Run the script using Python.
+3. A graphical window will open.
+4. Select one of the available scenarios:
+   - baseline
+   - optimization
+   - failure
+5. Click the Run Simulation button.
+6. Review the logs and graphs generated in the interface.
+
+4.2 Behavior-Oriented Simulation
+
+1. Open the file `Behavior-Oriented-Simulation.py`.
+2. Run the script using Python.
+3. A graphical window will open.
+4. Select one of the available scenarios:
+   - baseline
+   - optimization
+   - failure
+5. Click the Run Simulation button.
+6. Review the logs and graphs generated in the interface.
+
+5. SCENARIO DESCRIPTION
+
+5.1 Baseline Scenario
+
+Represents normal institutional operation without strong incentives or advanced support mechanisms.
+
+Expected behavior:
+- Moderate overflow.
+- Stable but stagnant adoption.
+- Fluctuating trust.
+- WhatsApp remains relevant.
+
+5.2 Optimization Scenario
+
+Represents improved system conditions with better coordination and institutional support.
+
+Expected behavior:
+- Reduced overflow.
+- Higher match rate.
+- Trust growth.
+- Adoption growth.
+- Lower dependence on informal coordination.
+
+5.3 Failure Scenario
+
+Represents a stress situation with strong operational disruption.
+
+Expected behavior:
+- High overflow.
+- Frequent synchronization failures.
+- More cancellations.
+- Trust collapse.
+- Adoption decline.
+- Return to informal coordination.
+
+6. OUTPUTS
+
+The simulations generate:
+
+- On-screen logs of daily events.
+- Summary values at the end of the simulation.
+- Graphs of the main variables.
+- Scenario comparisons through visual results.
+
+6.1 Process-Oriented Simulation Outputs
+
+Main indicators:
+- Parking demand
+- Overflow vehicles
+- Carpool matches
+- Total matches
+- Failed matches
+- Synchronization issues
+- Cancellations
+
+6.2 Behavior-Oriented Simulation Outputs
+
+Main indicators:
+- Adoption
+- Trust
+- WhatsApp usage
+- Parking saturation
+- Successful matches
+- Cancellations
+- Sync failures
+- Average saturation
+
+7. HOW TO INTERPRET THE RESULTS
+
+7.1 Process-Oriented Model
+
+This model is useful to observe how the parking system behaves in the short term.
+
+- High parking demand with limited capacity produces overflow.
+- Better matching reduces overflow.
+- Cancellations and synchronization failures reduce performance.
+- Rain can increase demand and worsen congestion.
+
+7.2 Behavior-Oriented Model
+
+This model is useful to observe the social sustainability of the system over time.
+
+- Higher trust supports stronger participation.
+- Better reliability improves adoption.
+- Repeated failures reduce trust.
+- Low adoption keeps WhatsApp as the dominant coordination method.
+
+8. LIMITATIONS
+
+The simulations are conceptual and scenario-based.
+
+Important limitations:
+- The models do not represent every real-world condition in full detail.
+- Results depend on the selected scenario parameters.
+- The simulations are useful for validation and comparison, but they are not a final prediction of real campus behavior.
+- Some conceptual elements are analyzed in the report even if they are not modeled as fully independent computational variables.
+
+9. RECOMMENDED ORDER OF USE
+
+If both simulations will be tested, it is recommended to:
+
+1. Run the Process-Oriented Simulation first.
+2. Review the operational results.
+3. Run the Behavior-Oriented Simulation next.
+4. Compare trust, adoption, and informal coordination dependence.
+5. Use the graphs and logs together with the PDF report for interpretation.
+
+10. FINAL NOTE
+
+This workshop validates the proposed system as a socio-technical coordination arrangement, not only as a software tool. The simulations help analyze how parking capacity, coordination reliability, trust, and user participation interact under different conditions.
