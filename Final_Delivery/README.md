@@ -41,7 +41,3 @@ This delivery builds on the previous stages:
 - **Workshop 3:** socio-technical refinement, stakeholder mapping, risk and quality framework, and implementation plan. 
 - **Workshop 4:** simulation and validation of system behavior under baseline, optimization, and failure scenarios. 
 
-## Notes
-
-- The only remaining deliverable is the **IEEE-formatted paper**, which will be added  
-  to this folder once completed. 
